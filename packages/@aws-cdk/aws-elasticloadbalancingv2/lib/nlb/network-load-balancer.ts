@@ -14,6 +14,10 @@ export interface NetworkLoadBalancerProps extends BaseLoadBalancerProps {
    * @default false
    */
   readonly crossZoneEnabled?: boolean;
+
+  readonly elasticIps?: 
+
+
 }
 
 /**
